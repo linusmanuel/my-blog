@@ -1,0 +1,22 @@
+{
+  "name": "tasksheet",
+  "version": "1.0.0",
+  "description": "Frontend challenge from CampusPress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linusmanuel/my-blog.git"
+  },
+  "author": "Joao Lino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linusmanuel/my-blog/issues"
+  },
+  "homepage": "https://github.com/linusmanuel/my-blog#readme",
+  "dependencies": {
+    "sass": "^1.56.0"
+  }
+}
