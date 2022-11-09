@@ -12,6 +12,7 @@
 .c-header__logo img {
   height: 100%;
   width: 100%;
+  filter: opacity(0.7);
 }
 .c-header__menu {
   background: #fff;
