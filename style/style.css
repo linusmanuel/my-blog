@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .c-header {
   max-width: 560px;
   margin: 0 auto;
@@ -8,6 +13,7 @@
   width: 60px;
   height: 60px;
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 .c-header__logo img {
   height: 100%;
@@ -33,6 +39,54 @@
 }
 .c-header a:hover {
   color: #c85202;
+}
+
+.c-form {
+  padding-top: 165px;
+  max-width: 560px;
+  margin: 0 auto;
+}
+.c-form .container {
+  padding: 0 10px;
+}
+
+.c-input {
+  width: calc(100% - 95px);
+  height: 35px;
+  margin-right: 5px;
+}
+
+.btn {
+  min-width: 80px;
+  height: 40px;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn--primary {
+  background-color: #c85202;
+  transition: all 0.2s;
+}
+.btn--primary:hover {
+  background: #fff;
+  color: #c85202;
+  transition: all 0.2s;
+}
+
+.b-hero {
+  background-image: url("../images/bg-hero.png");
+  background-color: #6fabac;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 135px;
+  background-size: 870px;
+  min-height: 340px;
+  height: 320px;
+}
+.b-hero .container {
+  padding: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
