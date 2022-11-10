@@ -27,6 +27,11 @@
   list-style: none;
   padding: 10px;
 }
+@media (max-width: 568px) {
+  .c-header__menu {
+    justify-content: center;
+  }
+}
 .c-header__menu-item:not(:last-child) {
   margin-right: 30px;
 }
