@@ -1,0 +1,48 @@
+// Based single post style
+.single-post 
+  .container 
+    max-width: 960px
+    margin-inline: auto
+    padding-block: 30px
+    padding-inline: 10px
+
+  &__title
+    color: $black
+    font-size: 44px
+    font-weight: 500
+    margin-bottom: 16px
+
+    @media (max-width: $mobile)
+      font-size: 22px
+
+  &__title-4
+    font-weight: 400
+    color: $black
+    line-height: 22px
+    margin-block: 10px
+
+  &__picture
+    display: block 
+    padding-block: 50px
+    max-width: 100%
+
+    @media (max-width: $mobile)
+      padding-block: 25px
+
+    img 
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+  &__text 
+    text-align: justify
+    margin-block: 16px
+
+  a 
+    color: $primary
+
+  ul
+    padding-left: 16px
+
+    &:last-of-type
+      margin-bottom: 30px
