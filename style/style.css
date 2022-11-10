@@ -120,6 +120,43 @@
   color: #6fabac;
 }
 
+.c-footer {
+  padding-bottom: 10px;
+}
+.c-footer .container {
+  display: flex;
+  justify-content: space-around;
+  padding-inline: 10px;
+  max-width: 1280px;
+  margin-inline: auto;
+  align-items: center;
+  padding-top: 50px;
+}
+@media (max-width: 568px) {
+  .c-footer .container {
+    display: block;
+    text-align: center;
+  }
+}
+.c-footer__title a {
+  color: #eb5e00;
+  font-weight: 500;
+}
+@media (max-width: 568px) {
+  .c-footer__title a {
+    display: block;
+    margin-bottom: 12px;
+  }
+}
+.c-footer__text {
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.c-footer__text a {
+  color: #6fabac;
+}
+
 .b-hero {
   background-image: url("../images/bg-hero.png");
   background-color: #6fabac;
