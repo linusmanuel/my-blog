@@ -29,7 +29,7 @@ NPM
 
 ## ✒️ authors
 
-- **Joao Lino** - _Developer_ - <a href="https://github.com/linusmanuel" target="_blank">Linus Manuel</a>
+- **Joao Lino** - _Developer_ - <a href="https://github.com/linusmanuel" target="_blank">LinkedIn Profile contact me</a>
 - **CampusPress** - _Client_ - <a href="https://campuspress.com/" target="_blank">CampusPress</a>
 
 ## 🎁 Expressions of gratitude
